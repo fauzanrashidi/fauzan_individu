@@ -1,0 +1,170 @@
+﻿body {
+    width:auto;height:auto;margin:auto;min-width:1080px;max-width:1920px;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Suez One', serif;
+    font-family: 'Verdana';
+    background-image: url("texture/grey_stripe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-room;
+}
+
+::selection {
+    color: #FFA21E;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+    width: 12.5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4A4A4A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFA21E;
+}
+
+/* NAVIGATION BAR -----------------------------------------------------------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A4A4A;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 7px 29px 0 #262626;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-family: ubuntu;
+    font-size: 15px;
+    letter-spacing: 3px;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-style: italic;
+}
+
+li a.active {
+    background-color: #FFA21E;
+    color: #000000;
+    font-weight: bold;
+}
+
+.float_left {
+    float: left;
+    padding-left: 15px;
+    font-family: caveat;
+    font-size: 15px;
+    letter-spacing: 10px;
+    color: #FFA21E;
+}
+
+ /* FOOTER ------------------------------------------------------------------------------*/
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    position: static;
+    left:0; right: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.footer p {
+    font-family: ubuntu;
+    color: #000000;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.footer img {
+    width: 100px;
+    height: 63px;
+    transition: 1s ease-out;
+}
+
+.footer img:hover {
+    width: 120px;
+    height: 73px;
+    transition: 0.3s ease-in;
+}
+
+ /* CLICK ME ----------------------------------------------------------------------------*/
+
+.clickme {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    position: static;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #303030;
+    box-shadow: inset 0px -10px 19px -15px #000000;
+}
+
+.clickme p {
+    font-family: ubuntu;
+    color: #9E9E9E;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.clickme_arrow {
+    filter: invert(1);
+    width: 75px;
+    height: 50px;
+    transition: 1s ease-out;
+}
+
+.clickme_arrow:hover {
+    transition: 0.3s ease-in;
+    width: 125px; height: 100px;
+}
+
+ html {
+    scroll-behavior: smooth;
+}
+
+/* ALL PAGES HEADER CLOSE */
